@@ -5,8 +5,7 @@
       "info-card#button-right",
       "info-card#button-left",
       "info-card#rethink",
-      "flex-layout.row",
-      "flex-layout.col"
+      "flex-layout.row"
     ]
   },
   "rich-text": {
@@ -43,7 +42,12 @@
       "blockClass": "metal"
     }
   },
-
+  "flex-layout.row": {
+    "children": ["info-card#rethink", "flex-layout.col"]
+  },
+  "flex-layout.col": {
+    "children": ["image#electronics", "image#major-appliance"]
+  },
   "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
@@ -64,11 +68,5 @@
       "src": " https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png ",
       "max-width": "100%"
     }
-  },
-  "flex-layout.row": {
-    "children": ["info-card#rethink", "flex-layout.col"]
-  },
-  "flex-layout.col": {
-    "children": ["image#electronics", "image#major-appliance"]
   }
 }
