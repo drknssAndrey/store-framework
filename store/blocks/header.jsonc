@@ -41,7 +41,7 @@
   },
   "login": {
     "props": {
-      "showInconProfile": true,
+      "showIconProfile": true,
       "iconLabel": "Login"
     }
   },
