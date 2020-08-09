@@ -13,12 +13,12 @@
     }
   },
   "flex-layout.row#major": {
-    "children": ["flex-layout.col#menu", "flex-layout.col#image"]
+    "children": ["flex-layout.col#menu", "flex-layout.col#img"]
   },
   "flex-layout.col#menu": {
     "children": ["vtex.menu@2.x:menu#major"]
   },
-  "flex-layout.col#image": {
+  "flex-layout.col#img": {
     "children": ["image#menu", "rich-text#header"],
     "props": {
       "paddingRight": 4,
